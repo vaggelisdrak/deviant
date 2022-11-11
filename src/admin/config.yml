@@ -4,7 +4,7 @@ backend:
 media_folder: "public/assets/images"
 public_folder: "/asstes/images"
 collections:
-- label: "Pages"
+  - label: "Pages"
     name: "pages"
     files:
       - label: "Carousel_1"
