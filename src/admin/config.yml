@@ -1,0 +1,91 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/assets/images"
+public_folder: "/asstes/images"
+collections:
+- label: "Pages"
+    name: "pages"
+    files:
+      - label: "Carousel_1"
+        name: "carousel_1"
+        file: "src/landing_page/carousel_1.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: post1}
+        
+      - label: "Carousel_2"
+        name: "carousel_2"
+        file: "src/landing_page/carousel_2.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: post2}
+
+      - label: "Carousel_3"
+        name: "carousel_3"
+        file: "src/landing_page/carousel_3.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: post3}
+
+      - label: "What we do section"
+        name: "what_we_do"
+        file: "src/landing_page/what_we_do.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Text, name: description, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: what_we_do}
+
+      - label: "Landing section"
+        name: "landing"
+        file: "src/our_story/landing.md"
+        fields:
+          - {label: Text, name: description, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: landing}
+
+      - label: "Video section"
+        name: "video"
+        file: "src/our_story/video.md"
+        fields:
+          - {label: Text, name: description, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: video}
+
+      - label: "Strategy"
+        name: "strategy"
+        file: "src/our_story/strategy.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Text, name: description, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: strategy}
+
+      - label: "Sales & Marketing"
+        name: "sales"
+        file: "src/our_story/sales.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Text, name: description, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: sales}
+
+      - label: "Content Production"
+        name: "content"
+        file: "src/our_story/content.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Text, name: description, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: content}
+
+      - label: "Public Relations"
+        name: "pr"
+        file: "src/our_story/pr.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Text, name: description, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: pr}
