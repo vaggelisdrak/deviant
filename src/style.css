@@ -243,7 +243,7 @@ html {
 .card-category-1>div,
 .card-category-2>div:not(:last-child) {
   margin: 10px 5px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Basic Card */
@@ -291,7 +291,7 @@ html {
   .card-category-1>div,
   .card-category-2>div:not(:last-child) {
     margin: 10px;
-    
+
     text-align: center;
   }
 }
