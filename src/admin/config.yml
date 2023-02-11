@@ -89,3 +89,12 @@ collections:
           - {label: Image Caption, name: imageAlt, widget: string}
           - {label: Text, name: description, widget: string}
           - {label: Tags, name: tags, widget: string ,default: pr}
+
+      - label: "VIBHU"
+        name: "vibhu"
+        file: "src/our_work/vibhu.md"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: Image Caption, name: imageAlt, widget: string}
+          - {label: Text, name: description, widget: string}
+          - {label: Tags, name: tags, widget: string ,default: pr}
