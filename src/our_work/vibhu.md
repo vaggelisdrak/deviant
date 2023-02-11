@@ -1,5 +1,5 @@
 ---
-image: /assets/images/vibhuu.png
+image: /assets/images/vibhuu-1-.png
 imageAlt: vibhu
 description: Our team will carefully examine key elements in the strategic
   management process, set a sound branding and evaluate the feasibility of your
