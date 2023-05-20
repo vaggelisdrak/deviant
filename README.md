@@ -6,3 +6,4 @@ A simple responsive website with a JAMstack CMS implemented for a company named 
 
 
 
+![cmss](https://github.com/vaggelisdrak/deviant/assets/71725114/46345053-2df8-4b64-84b6-1ed0bc52df6c)
